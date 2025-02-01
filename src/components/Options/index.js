@@ -4,6 +4,7 @@ import {ImagesContainer, EachImg, EachItemBtn} from './styledComponents'
 
 const Options = props => {
   const {choicesList, imageClicked} = props
+  console.log(choicesList)
 
   const clickImage = itemId => {
     imageClicked(itemId)
@@ -16,7 +17,7 @@ const Options = props => {
           type="button"
           onClick={() => clickImage(eachItem.id)}
           key={eachItem.id}
-          data-testid="rockButton"
+          data-testid={`${eachItem.id.toLowerCase()}Button`}
         >
           <EachImg src={eachItem.imageUrl} alt={eachItem.id} />
         </EachItemBtn>

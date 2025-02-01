@@ -96,9 +96,9 @@ class Game extends Component {
       <GameAppContainer>
         <HeaderContainer>
           <InformationContainer>
-            <Heading>Rock</Heading>
-            <Heading>Paper</Heading>
-            <Heading>Scissors</Heading>
+            <Heading>
+              Rock <br /> Paper <br /> Scissors
+            </Heading>
           </InformationContainer>
           <ScoreContainer>
             <ScoreHeading>Score</ScoreHeading>
@@ -144,9 +144,9 @@ class Game extends Component {
       <GameAppContainer>
         <HeaderContainer>
           <InformationContainer>
-            <Heading>ROCK</Heading>
-            <Heading>PAPER</Heading>
-            <Heading>SCISSORS</Heading>
+            <Heading>
+              Rock <br /> Paper <br /> Scissors
+            </Heading>
           </InformationContainer>
           <ScoreContainer>
             <ScoreHeading>Score</ScoreHeading>
